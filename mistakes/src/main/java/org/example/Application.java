@@ -14,8 +14,8 @@ public class Application {
 
         /**
          * Pierwsze zadanie polega na tym,
-         * aby wszystkie książki po rozdzielać losowo osobom.
-         * Jednak napisana metoda nie działa poprawnie, są w nij błędy
+         * aby wszystkie książki porozdzielać losowo osobom.
+         * Jednak napisana metoda nie działa poprawnie, są w niej błędy
          * Czy potrafisz je naprawić?
          */
 //        new BooksAggregator().aggregateBooksThroughPeople();
@@ -43,8 +43,8 @@ public class Application {
         /**
          * Nasza lista osób posiada w sobie kobiety oraz mężczyzn.
          * Chciałbym aby ta lista została rozdzielona na dwie listy
-         * - jedna lista dla mężczyzn i jedna dla kobiet,
-         * zawartych w słowniku gdzie kluczem jest płeć osoby
+         * - jedna lista dla mężczyzn i jedna dla kobiet.
+         * te listy chcę mieć w słowniku gdzie kluczem jest płeć osoby
          *
          * ale znowu coś nie działa jak trzeba :(
          * co jest nie tak?
@@ -73,6 +73,8 @@ public class Application {
 //
 //        System.out.println("Udało się. Wszystko działa :)");
     }
+
+    /* KODU PONIŻSZYCH METOD NIE ZMIENIAMY ! */
 
     private static boolean sizeOfPeopleWithBooksEqualsSizeOfAllBooks(List<Person> peopleWithBooks){
         return peopleWithBooks.size()==Samples.getAllBooks().size();
