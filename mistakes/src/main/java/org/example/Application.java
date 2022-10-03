@@ -20,7 +20,7 @@ public class Application {
          */
 //        new BooksAggregator().aggregateBooksThroughPeople();
 //
-//        if(isBooksCollectionEmpty()){
+//        if(!isBooksCollectionEmpty()){
 //            System.out.println("po przydzieleniu książek, kolekcja książek powinna być pusta, a nie jest :(");
 //            return;
 //        }
@@ -51,11 +51,11 @@ public class Application {
          */
 //        Map<Gender, List<Person>> aggregatePeopleByGander = new PeopleAggregator().aggregatePeopleByGender();
 //        if(malesExistsInCollection(aggregatePeopleByGander.get(Gender.FEMALE))){
-//            System.out.println("W kolekcji mężczyzn znajdują się kobiety.");
+//            System.out.println("W kolekcji kobiet znajdują się mężczyźni.");
 //            return;
 //        }
 //        if(femalesExistsInCollection(aggregatePeopleByGander.get(Gender.MALE))){
-//            System.out.println("W kolekcji kobiet znajdują się mężczyźni.");
+//            System.out.println("W kolekcji mężczyzn znajdują się kobiety.");
 //            return;
 //        }
 
