@@ -20,14 +20,14 @@ public class Samples {
             new Book("Suicide Squad")
     );
 
-    private static  List<Book> books = allBooks;
+    private static  List<Book> availableBooks = allBooks;
 
     public static List<Person> getSampleListOfPeople(){
         return people;
     }
 
     public static List<Book> getAvailableBooks(){
-        return books;
+        return availableBooks;
     }
 
     public static List<Book> getAllBooks(){
