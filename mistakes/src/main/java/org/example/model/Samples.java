@@ -11,7 +11,7 @@ public class Samples {
             new Person("Jessica","Jones", Gender.FEMALE),
             new Person("Bruce","Wayne", Gender.MALE),
             new Person("Harley","Quin", Gender.FEMALE)
-    ).stream().toList();
+    );
 
     private static List<Book> allBooks= List.of(
             new Book("SuperMan"),
@@ -20,7 +20,7 @@ public class Samples {
             new Book("Suicide Squad")
     );
 
-    private static  List<Book> books = allBooks.stream().toList();
+    private static  List<Book> books = allBooks;
 
     public static List<Person> getSampleListOfPeople(){
         return people;
