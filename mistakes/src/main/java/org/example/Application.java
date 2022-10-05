@@ -6,7 +6,6 @@ import org.example.model.Person;
 import org.example.model.Samples;
 
 import java.util.List;
-import java.util.Map;
 
 public class Application {
 
@@ -18,7 +17,7 @@ public class Application {
          * Jednak napisana metoda nie działa poprawnie, są w niej błędy
          * Czy potrafisz je naprawić?
          */
-//        new BooksAggregator().distributeBooksThroughPeople();
+//        new BooksDistributor().distributeBooksThroughPeople();
 //
 //        if(!isBooksCollectionEmpty()){
 //            System.out.println("po przydzieleniu książek, kolekcja książek powinna być pusta, a nie jest :(");

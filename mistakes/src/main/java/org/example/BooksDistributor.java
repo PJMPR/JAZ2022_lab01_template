@@ -5,7 +5,7 @@ import org.example.model.Samples;
 
 import java.util.Random;
 
-public class BooksAggregator {
+public class BooksDistributor {
 
     public void distributeBooksThroughPeople(){
 
