@@ -18,7 +18,7 @@ public class Application {
          * Jednak napisana metoda nie działa poprawnie, są w niej błędy
          * Czy potrafisz je naprawić?
          */
-//        new BooksAggregator().aggregateBooksThroughPeople();
+//        new BooksAggregator().distributeBooksThroughPeople();
 //
 //        if(!isBooksCollectionEmpty()){
 //            System.out.println("po przydzieleniu książek, kolekcja książek powinna być pusta, a nie jest :(");
