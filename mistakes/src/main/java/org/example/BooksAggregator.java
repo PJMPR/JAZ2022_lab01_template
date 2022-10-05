@@ -7,7 +7,7 @@ import java.util.Random;
 
 public class BooksAggregator {
 
-    public void aggregateBooksThroughPeople(){
+    public void distributeBooksThroughPeople(){
 
         for (Person person: Samples.getSampleListOfPeople())
         {
